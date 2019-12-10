@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="demo"></h1>
+    <h1 id="demo1"></h1>
+    <h1 id="demo2"></h1>
+    <h1 id="demo3"></h1>
+
+    <script type="text/javascript">
+      var num1 = 8;
+      var num2 = 5;
+      function addNum(){
+        return num1+num2;
+      }
+      function multiNum(){
+        return num1*num2;
+      }
+      function subtractNum(){
+        return num1-num2;
+      }
+      function divideNum(){
+        return num1/num2;
+      }
+
+      document.getElementById("demo").innerHTML=addNum();
+      document.getElementById("demo1").innerHTML=multiNum();
+      document.getElementById("demo2").innerHTML=subtractNum();
+      document.getElementById("demo3").innerHTML=divideNum();
+    </script>
+  </body>
+</html>
